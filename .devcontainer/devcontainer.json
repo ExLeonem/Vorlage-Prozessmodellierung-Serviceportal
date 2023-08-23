@@ -5,7 +5,13 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": { },
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/groovy-sdkman:2": {
+			"version": "4.0.10",
+		 	"jdkVersion": "17",
+		 	"jdkDistro": "open"
+		}
+	},
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
