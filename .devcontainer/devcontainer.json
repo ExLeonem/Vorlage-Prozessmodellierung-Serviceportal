@@ -2,10 +2,15 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/alpine
 {
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"image": "mcr.microsoft.com/devcontainers/java:17",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "none",
+			"installGradle": true,
+			"gradleVersion": "7.5.1"
+		},
 		"ghcr.io/devcontainers-contrib/features/groovy-sdkman:2": {
 			"jdkVersion": "17"
 		}
