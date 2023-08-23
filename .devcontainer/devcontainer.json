@@ -6,17 +6,10 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		// "ghcr.io/devcontainers/features/java:1": {
-		// 	"installGradle": true,
-		// 	"version": "17.0.8",
-		// 	"jdkDistro": "open",
-		// 	"gradleVersion": "7.5.1"
-		// }
-		// "ghcr.io/devcontainers-contrib/features/groovy-sdkman:2": {
-		// 	"version": "latest",
-		// 	"jdkVersion": "17",
-		// 	"jdkDistro": "open"
-		// }
+		"ghcr.io/devcontainers-contrib/features/gradle-sdkman:2": {
+			"version": "7.5.1",
+			"jdkVersion": "17"
+		},
 		"ghcr.io/devcontainers-contrib/features/groovy-sdkman:2": {
 			"jdkVersion": "17"
 		}
@@ -29,7 +22,6 @@
 				"formulahendry.auto-close-tag",
 				"formulahendry.auto-rename-tag",
 				"redhat.java",
-				"marlon407.code-groovy",
 				"vscjava.vscode-gradle"
 			]
 		}
