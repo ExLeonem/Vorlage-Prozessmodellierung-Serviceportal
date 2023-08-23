@@ -9,7 +9,7 @@
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "none",
 			"installGradle": true,
-			"gradleVersion": "7.5.1"
+			"gradleVersion": "7.6"
 		},
 		"ghcr.io/devcontainers-contrib/features/groovy-sdkman:2": {
 			"jdkVersion": "17"
