@@ -5,19 +5,7 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
-		"ghcr.io/devcontainers/features/java:1": {
-			"installGradle": true,
-			"version": "17.0.8",
-			"jdkDistro": "open",
-			"gradleVersion": "7.5.1"
-		}
-		// "ghcr.io/devcontainers-contrib/features/groovy-sdkman:2": {
-		// 	"version": "4.0.10",
-		// 	"jdkVersion": "17",
-		// 	"jdkDistro": "open"
-		// }
-	},
+	"features": { },
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
