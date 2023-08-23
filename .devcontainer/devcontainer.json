@@ -1,22 +1,24 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/alpine
-{	
+{
+	"name": "Alpine",
+	
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.18",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/groovy-sdkman:2": {
-			"version": "",
-			"jdkVersion": "17",
-			"jdkDistro": "open"
-		},
 		"ghcr.io/devcontainers/features/java:1": {
 			"installGradle": true,
-			"version": "17",
+			"version": "17.0.8",
 			"jdkDistro": "open",
 			"gradleVersion": "7.5.1"
 		}
+		// "ghcr.io/devcontainers-contrib/features/groovy-sdkman:2": {
+		// 	"version": "4.0.10",
+		// 	"jdkVersion": "17",
+		// 	"jdkDistro": "open"
+		// }
 	},
 	// Configure tool-specific properties.
 	"customizations": {
